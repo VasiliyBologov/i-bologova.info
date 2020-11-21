@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url(r'^$', views.maintenance, name='maintenance'),
+    url(r'^$', views.main, name='main'),
 
 
 ]
