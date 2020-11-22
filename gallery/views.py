@@ -2,8 +2,9 @@ import logging
 
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
+from .models import Picture, Event
 
-MAINTENANCE_MOD = True
+MAINTENANCE_MOD = False
 
 def maintenance(the_func):
     """
@@ -21,7 +22,11 @@ def maintenance(the_func):
 # @login_required(login_url='/login/')
 @maintenance
 def main(request):
-    return render(request, 'main.html', {})
+    events = Event.objects.all()
+    pictures = Picture.objects.all()
+
+
+    return render(request, 'main.html', {'events': events[:3], 'pictures': pictures[:4]})
 
 
 
@@ -32,8 +37,7 @@ def gallery():
 
 
 def page_not_found(request, exception):
-
-    logging.warning(f'page not found wtf? {str(request.get_full_path())} and ip {ip}')
+    logging.warning(f'page not found wtf?')
     return render(request, '404.html', {})
 
 
