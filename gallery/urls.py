@@ -13,5 +13,5 @@ urlpatterns = [
 handler404 = "gallery.views.page_not_found"
 
 
-if settings.DEBUG:
+if not settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
