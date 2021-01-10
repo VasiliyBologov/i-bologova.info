@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '=!c(4o=5ai3l5cd9^%h4@f8ah$+*gfcb7@fydcrmg%%5tux$g&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'i-bologova.info',
