@@ -28,7 +28,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/var/www/i-bologova"
+        target: "/var/www/i-bologova.info"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
