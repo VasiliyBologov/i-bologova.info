@@ -26,7 +26,7 @@ SECRET_KEY = '=!c(4o=5ai3l5cd9^%h4@f8ah$+*gfcb7@fydcrmg%%5tux$g&'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'http://i-bologova.info/',
+    'i-bologova.info',
     '127.0.0.1',
 ]
 
