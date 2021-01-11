@@ -48,55 +48,6 @@
   </div>
 </nav>
 
-
-
-<div class="container-fluid jumbotron bg-light">
-  <div class="row">
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-4 jumbotron bg-light">
-      <img src="{% static 'img/photo_main.jpg' %}" class="img-fluid" alt="Irina Bologova" width="460" height="600">
-    </div>
-    <div class="col-sm-6 jumbotron bg-light">
-      <h3>Artist Irina Bologova</h3>
-      <p>   I live in Kaluga, Russia, I have a small painting studio in a country house. <br/><br/>
-            I mostly paint landscapes and still lifes, I focus on impressions. <br/><br/>
-            I usually use acrylics, oils or watercolors in various techniques. Sometimes I carry out orders for photomontage. <br/><br/>
-            I mostly draw inspiration for my portraits from photographs. Landscapes and still lifes in my works are what surrounds me.  <br/><br/>
-            Nature, ordinary things in the house, flowers. I have a series of paintings with horses - this is more an exception.
-            There are also many ideas coming from the Internet.</p>
-      <p>Participant of many exhibitions at the local and regional level.</p>
-      <p>Kaluga</p>
-    </div>
-    <div class="col-sm-1">
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="container-fluid jumbotron bg-light" id="events">
-  <div class="row">
-    <div class="col-sm-1">
-    </div>
-    <div class="col-sm-10 jumbotron bg-light">
-      <h3><b>Events</b></h3>
-        <p><b>Unfortunately,</b> there are currently no events due to COVID-19</p>
-        {% if events %}
-            {% for event in events %}
-                <p><b>{{ event.title }}</b>  &nbsp;
-                {{ event.date }} &nbsp;
-                {{ event.description }}</p>
-            {% endfor %}
-        {% endif %}
-    </div>
-    <div class="col-sm-1">
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid jumbotron bg-light" id="gallery">
   <div class="row">
     <div class="col-sm-1">
@@ -107,19 +58,19 @@
         <div class="row">
         {% if pictures %}
             {% for picture in pictures %}
-                <div class="col-sm-3">
-                    <img src="{{ picture.photo.url }}" class="img-" alt="{{ picture.picture_name }}" width="150" height="100">
+                <div class="col-sm-4">
+                    <img src="{{ picture.photo.url }}" class="img-" alt="{{ picture.picture_name }}"  height="300">
                     <p>{{ picture.picture_name }}</p>
                 </div>
             {% endfor %}
         {% endif %}
         </div>
-        <p onclick="window.open('/gallery/')" style="cursor: pointer">View all Gallery</p>
     </div>
     <div class="col-sm-1">
     </div>
   </div>
 </div>
+
 
 <div class="container-fluid jumbotron bg-light" id="contacts">
   <div class="row">

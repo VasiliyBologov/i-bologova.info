@@ -24,15 +24,14 @@ def maintenance(the_func):
 def main(request):
     events = Event.objects.all()
     pictures = Picture.objects.all()
-
-
     return render(request, 'main.html', {'events': events[:3], 'pictures': pictures[:4]})
 
 
 
 @maintenance
-def gallery():
-    pass
+def gallery(request):
+    pictures = Picture.objects.all()
+    return render(request, 'gallery.html', {'pictures': pictures})
 
 
 
