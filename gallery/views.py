@@ -24,7 +24,7 @@ def maintenance(the_func):
 def main(request):
     events = Event.objects.all()
     pictures = Picture.objects.all()
-    return render(request, 'main.html', {'events': events[:3], 'pictures': pictures[:4]})
+    return render(request, 'main.html', {'events': events[:3], 'pictures': pictures[:8]})
 
 
 
