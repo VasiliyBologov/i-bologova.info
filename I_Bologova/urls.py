@@ -28,10 +28,9 @@ sitemaps = {
 
 urlpatterns = [
     path('adminka/', admin.site.urls),
-    path('', include('gallery.urls')),
     path('robots.txt/', robots_txt),
-    url(r'^sitemap.xml$', sitemap, {'sitemaps': sitemaps})
-
+    url(r'^sitemap.xml$', sitemap, {'sitemaps': sitemaps}),
+    path('', include('gallery.urls')),
 ]
 
 
