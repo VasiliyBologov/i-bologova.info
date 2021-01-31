@@ -9,7 +9,7 @@ class StaticViewSitemap(Sitemap):
 
     def items(self):
         # return RequestModel.objects.all()
-        return '/'
+        return ['/', '/gallery']
 
     def location(self, obj):
         # return obj.date
