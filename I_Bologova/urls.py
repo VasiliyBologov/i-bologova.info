@@ -15,14 +15,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import include
+from django.conf.urls import include, url
 from django.views.generic.base import TemplateView
 from .views import robots_txt
+from django.contrib.sitemaps.views import sitemap
+from .sitemap import StaticViewSitemap
+
+
+sitemaps = {
+    'static': StaticViewSitemap
+}
 
 urlpatterns = [
     path('adminka/', admin.site.urls),
     path('', include('gallery.urls')),
     path('robots.txt/', robots_txt),
+    url(r'^sitemap.xml$', sitemap, {'sitemaps': sitemaps})
 
 ]
 
