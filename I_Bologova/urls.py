@@ -20,7 +20,7 @@ from .views import robots_txt
 
 urlpatterns = [
     path('adminka/', admin.site.urls),
-    path('robots.txt/', robots_txt),
+    path('robots.txt', robots_txt),
     path('', include('gallery.urls')),
 ]
 
