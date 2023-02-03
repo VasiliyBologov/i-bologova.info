@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/i-bologova.info/static/css/main.6d61f489.css",
-    "main.js": "/i-bologova.info/static/js/main.a3f00cb1.js",
+    "main.css": "/i-bologova.info/static/css/main.e6c13ad2.css",
+    "main.js": "/i-bologova.info/static/js/main.e8d7d0ec.js",
     "static/js/787.a3711c77.chunk.js": "/i-bologova.info/static/js/787.a3711c77.chunk.js",
-    "static/media/logo.svg": "/i-bologova.info/static/media/logo.a0ce7ca8e0f2d356a3fe0d564d9c0e7e.svg",
+    "static/media/photo_2023-02-03_23-49-12.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-12.a93df62eed2dec7e2495.jpg",
+    "static/media/photo_2023-02-03_23-49-13.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-13.a93df62eed2dec7e2495.jpg",
+    "static/media/photo_2023-02-03_23-49-03.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-03.9878cf767972dbb1871e.jpg",
+    "static/media/photo_2023-02-03_23-48-59.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-48-59.73a71aa95651fecd906d.jpg",
+    "static/media/photo_2023-02-03_23-49-19.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-19.6b0bf08083276ee48167.jpg",
+    "static/media/photo_2023-02-03_23-49-09.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-09.c6ca3c3ab3f4afc6cbea.jpg",
+    "static/media/photo_2023-02-03_23-49-23.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-23.0d972cd90efd1eb7ff26.jpg",
+    "static/media/photo_2023-02-03_23-49-05.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-05.f845bfe37376e8cf3672.jpg",
+    "static/media/photo_2023-02-03_23-49-40.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-40.5f376f2d0fab5120b092.jpg",
+    "static/media/photo_2023-02-03_23-48-37.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-48-37.319e69e52e336402f22d.jpg",
+    "static/media/photo_2023-02-03_23-48-48.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-48-48.29ea9c5fcb9a65bd7603.jpg",
+    "static/media/photo_2023-02-03_23-49-37.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-37.af97ee45b934005eb6a9.jpg",
+    "static/media/photo_2023-02-03_23-49-44.jpg": "/i-bologova.info/static/media/photo_2023-02-03_23-49-44.e8e32f2c50435963d2c9.jpg",
+    "static/media/photo_main.jpg": "/i-bologova.info/static/media/photo_main.8aa0dfd67034724bcfad.jpg",
     "index.html": "/i-bologova.info/index.html",
-    "main.6d61f489.css.map": "/i-bologova.info/static/css/main.6d61f489.css.map",
-    "main.a3f00cb1.js.map": "/i-bologova.info/static/js/main.a3f00cb1.js.map",
+    "main.e6c13ad2.css.map": "/i-bologova.info/static/css/main.e6c13ad2.css.map",
+    "main.e8d7d0ec.js.map": "/i-bologova.info/static/js/main.e8d7d0ec.js.map",
     "787.a3711c77.chunk.js.map": "/i-bologova.info/static/js/787.a3711c77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d61f489.css",
-    "static/js/main.a3f00cb1.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e8d7d0ec.js"
   ]
 }
