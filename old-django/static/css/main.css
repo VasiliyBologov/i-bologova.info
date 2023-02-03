@@ -13,7 +13,7 @@ background-color:#007bff!important
 }
 /*Стиль хедера*/
 .header{
- background-image: url('/static/img/cool-background.png');
+ background-image: url('/old-django/staticango/static/img/cool-background.png');
  background-attachment: fixed;
  background-size: cover;
  background-position: center;

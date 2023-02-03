@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'I_Bologova.urls'
+ROOT_URLCONF = 'old-django.I_Bologova.urls'
 
 TEMPLATES = [
     {
@@ -124,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, '../static'),
 ]
 
 MEDIA_URL = '/media/'
