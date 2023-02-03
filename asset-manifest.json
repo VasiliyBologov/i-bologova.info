@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/i-bologova.info/static/css/main.6d61f489.css",
+    "main.js": "/i-bologova.info/static/js/main.a3f00cb1.js",
+    "static/js/787.a3711c77.chunk.js": "/i-bologova.info/static/js/787.a3711c77.chunk.js",
+    "static/media/logo.svg": "/i-bologova.info/static/media/logo.a0ce7ca8e0f2d356a3fe0d564d9c0e7e.svg",
+    "index.html": "/i-bologova.info/index.html",
+    "main.6d61f489.css.map": "/i-bologova.info/static/css/main.6d61f489.css.map",
+    "main.a3f00cb1.js.map": "/i-bologova.info/static/js/main.a3f00cb1.js.map",
+    "787.a3711c77.chunk.js.map": "/i-bologova.info/static/js/787.a3711c77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d61f489.css",
+    "static/js/main.a3f00cb1.js"
+  ]
+}
